@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WinFormsApp1.Board" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AS6hI0EuQZNAU4tCgCAUAAlAgASCKFAjiADAkIAIAiI=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinFormsApp1.Cell">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAACAASABAAAAABABCAABAAEAAAAAQACAAAAA=</HashCode>
+      <FileName>Cell.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GameForm" />
+      <Property Name="Board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinFormsApp1.Checker">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAIAAAAAAIAAAAIAAIAAAAAQCAAgCAAAAA=</HashCode>
+      <FileName>Checker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Board" />
+      <Property Name="GameForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinFormsApp1.Combination">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAQBAAAAAAAAAAAAgAQAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Combination.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinFormsApp1.Move">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABMAECECAAAAAQCAAAAAAAAIAAAIAAAAgABoAQAAQBA=</HashCode>
+      <FileName>Move.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GameForm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WinFormsApp1.GameForm" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/9A3CAT7AKAAQBAoAAjArv1+BACAgP8/MNAAwf//QzA=</HashCode>
+      <FileName>GameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
